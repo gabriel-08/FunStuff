@@ -1,3 +1,3 @@
 | Project | Description                          |
 | ------- | ------------------------------------ |
-| Game    | A very short, RPG game about a slave's life |
+| Slife    | A very short, RPG game about a slave's life |
