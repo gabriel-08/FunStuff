@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 print('You are a slave in Virginia. Your master gives you shovel. What do you do? \n A)You obey  B)You hit him')
 a = input()
 print("You chose %s" % a)
