@@ -1,11 +1,16 @@
 # -*- coding: utf-8 -*-
-print('You are a slave in Virginia. Your master gives you shovel. What do you do? \n A)You obey  B)You hit him')
-a = input()
-print("You chose %s" % a)
-if a == "A" or a == "a":
+# I am going to create some functions for your code, kay?
+def SellToOwner()
     b = input('You work hard until it is dark. Your master calls you in. Do you obey? \n A)Yes  B)No \n')
     if b == "A" or b == "a":
-        c = input("Your master sells you to a cruel owner. What do you do? \n A)You run  B)You obey \n")
+
+
+print('You are a slave in Virginia. Your master gives you shovel and commands you to dig.')
+ObeyOrDisobey = input("What do you do? \n A)You obey  B)You hit him")
+print("You chose %s" % a)
+if a == "A" or a == "a":
+    SellToOwner()
+        CruelOwnerAction = input("Your master sells you to a cruel owner. What do you do? \n A)You run  B)You obey \n")
         if c == "A" or c =="a":
             print("Your new master sends his dogs at you, and you get killed. REPLAY the game! ")
         elif c == "B" or c == "b":
