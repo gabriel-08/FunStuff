@@ -10,8 +10,8 @@ ObeyOrDisobey = input("What do you do? \n A)You obey  B)You hit him")
 print("You chose %s" % a)
 if a == "A" or a == "a":
     SellToOwner()
-        CruelOwnerAction = input("Your master sells you to a cruel owner. What do you do? \n A)You run  B)You obey \n")
-        if c == "A" or c =="a":
+    CruelOwnerAction = input("Your master sells you to a cruel owner. What do you do? \n A)You run  B)You obey \n")
+    if c == "A" or c =="a":
             print("Your new master sends his dogs at you, and you get killed. REPLAY the game! ")
         elif c == "B" or c == "b":
             print("The first thing your master does is whip you. You bleed to death. REPLAY the game!")
