@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 # I am going to create some functions for your code, kay?
-def SellToOwner()
+def SellToOwner():
     b = input('You work hard until it is dark. Your master calls you in. Do you obey? \n A)Yes  B)No \n')
     if b == "A" or b == "a":
+        
 
 
 print('You are a slave in Virginia. Your master gives you shovel and commands you to dig.')
